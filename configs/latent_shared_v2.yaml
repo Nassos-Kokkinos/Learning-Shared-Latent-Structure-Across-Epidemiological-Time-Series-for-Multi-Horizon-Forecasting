@@ -1,0 +1,19 @@
+model_name: latent_shared_v2
+
+encoder_hidden_dim: 256
+latent_dim: 128
+series_embedding_dim: 16
+head_hidden_dim: 64
+dropout: 0.1
+
+use_window_normalization: true
+use_linear_skip: true
+
+batch_size: 32
+learning_rate: 0.0005
+weight_decay: 0.0001
+epochs: 60
+patience: 10
+min_delta: 0.0005
+
+loss: mse

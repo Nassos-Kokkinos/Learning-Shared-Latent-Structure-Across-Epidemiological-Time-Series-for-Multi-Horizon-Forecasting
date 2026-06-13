@@ -1,0 +1,12 @@
+model_name: latent_shared
+
+hidden_dim: 128
+latent_dim: 64
+dropout: 0.1
+
+batch_size: 32
+learning_rate: 0.001
+weight_decay: 0.0
+epochs: 30
+
+loss: mse

@@ -1,0 +1,17 @@
+model_name: nhits
+
+hidden_dim: 256
+n_stacks: 3
+n_blocks_per_stack: 1
+n_layers: 2
+dropout: 0.1
+
+pooling_kernel_sizes: [1, 2, 4]
+downsample_frequencies: [4, 2, 1]
+
+batch_size: 32
+learning_rate: 0.001
+weight_decay: 0.0
+epochs: 30
+
+loss: mse

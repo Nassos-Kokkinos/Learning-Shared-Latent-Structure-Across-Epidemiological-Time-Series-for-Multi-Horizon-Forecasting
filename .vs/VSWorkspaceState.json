@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\configs",
+    "\\results",
+    "\\results\\metrics",
+    "\\results\\models",
+    "\\results\\tables",
+    "\\scripts",
+    "\\src\\epi_forecasting"
+  ],
+  "SelectedNode": "\\results\\models",
+  "PreviewInSolutionExplorer": false
+}

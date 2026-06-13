@@ -1,0 +1,13 @@
+date_column: ds
+series_column: series_id
+target_column: y
+
+frequency: W-SAT
+
+input_window: 24
+forecast_horizon: 4
+
+val_size: 24
+test_size: 24
+
+seed: 42
